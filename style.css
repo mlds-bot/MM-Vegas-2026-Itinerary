@@ -24,3 +24,8 @@
 .home-bottom{padding:30px 20px;gap:20px}
 .home-bottom:before{border-radius:5px;}
 }
+
+.weather-refresh{border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--text);padding:9px 14px;margin:8px 0 12px}.event-actions{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:10px}
+
+/* Restaurant reference additions; existing visual design unchanged */
+.offline-menu{margin:36px 0;padding:26px;border:1px solid var(--line);border-radius:14px;background:var(--card)}.offline-menu h2{font-family:'Barlow Condensed',Arial,sans-serif;font-size:clamp(28px,5vw,42px);margin:12px 0}.offline-menu .muted{line-height:1.6}.menu-preview-link{display:block;margin:20px 0;max-width:100%;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#f5f5f5}.menu-preview-link img{display:block;width:100%;height:auto}.buffet-highlights{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px;margin-top:20px}.buffet-highlights .info-card{margin:0}.buffet-highlights .dinner-links,.offline-menu .dinner-links{display:flex;flex-wrap:wrap;gap:16px;margin-top:14px}
